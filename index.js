@@ -5,7 +5,7 @@ class Breakfast {
       this.drink = drink;
     }
   }
-  class lunch {
+  class Lunch {
     constructor( salad, soup , drink) {
       
       this.salad = salad;
@@ -14,12 +14,13 @@ class Breakfast {
     }
   }
 
-  class dinner {
-#dessert;
-    constructor( salad, soup, entree) {
+  class Dinner {
+    #dessert;
+    constructor( salad, soup, entree, dessert ) {
     this.#dessert = dessert;
     this.salad = salad;
-      this.soup = soup;
+    this.soup = soup;
       this.entree = entree;
   }
   }
+  //
